@@ -13,7 +13,8 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.2 linear;
+  transition: 0.3s linear;
+  font-family: "Kanit", serif;
 }
 
 body {
@@ -51,11 +52,25 @@ section {
   margin: 0 1rem;
   font-size: 1.8rem;
   color: #fff;
+  font-weight: 400;
 }
 
 .navbar a:hover {
   color: var(--main-color);
   border-bottom: 0.1rem solid #d3ad7f;
   padding-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 2rem;
+}
+
+.icons img {
+  margin: 2rem;
+  cursor: pointer;
+  max-height: 30px;
+}
+
+.icons img:hover {
+  color: var(--main-color);
+  width: 32px;
+  height: 32px;
+  font-size: 2rem;
 }
