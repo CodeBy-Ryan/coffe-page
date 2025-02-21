@@ -159,6 +159,10 @@ section {
   display: inline-block;
 }
 
+.btn:hover {
+  letter-spacing: 0.1rem;
+}
+
 .home-container {
   background: url("/img/papel-de-parede-1-.jpg");
   height: 100vh;
@@ -245,10 +249,11 @@ section {
 /* FINAL DA RESPONSIVIDADE DA PRIMEIRA PÁGINA */
 
 .title {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--main-color);
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 4rem;
 }
 
 .title span {
@@ -259,4 +264,101 @@ section {
 .about .row {
   display: flex;
   align-items: center;
+  background-color: var(--black);
+  gap: 1.5rem;
+  border: 0.1rem solid #d3ad7f;
 }
+
+.about .row .content {
+  padding: 2rem;
+}
+
+.about .row .content h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about .row .content p {
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+/* Responsividade começando de 1374px para baixo */
+@media (max-width: 1374px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .about .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .row .content h3 {
+    font-size: 2.8rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.5rem;
+  }
+
+  .about .row img {
+    /* Adiciona regra para a imagem */
+    max-width: 100%; /* A imagem vai ocupar no máximo a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 2rem; /* Garante espaçamento se necessário */
+  }
+}
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .about .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about .row .content h3 {
+    font-size: 2.5rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.4rem;
+  }
+
+  .about .row img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5rem; /* Ajusta a margem da imagem */
+  }
+}
+
+/* Ajustes para telas ainda menores que 480px */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .about .row .content h3 {
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.2rem;
+  }
+
+  .about .row img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem; /* Ajusta ainda mais a margem da imagem */
+  }
+}
+
+
+/* FINAL DA RESPONSIVIDADE DA PRIMEIRA PÁGINA */
