@@ -45,7 +45,7 @@ section {
 }
 
 .logo img {
-  max-height: 70px; /* Ajuste o tamanho máximo */
+  max-height: 90px; /* Ajuste o tamanho máximo */
 }
 
 .navbar a {
@@ -108,9 +108,10 @@ section {
 
   .mobile-menu ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     padding-bottom: 1rem;
+    justify-content: space-around;
   }
 
   .mobile-menu .nav-link {
@@ -145,3 +146,100 @@ section {
     display: block;
   }
 }
+/* FINAL DA RESPONSIVIDADE DO MEMU */
+
+.btn {
+  background: var(--main-color);
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.home-container {
+  background: url("/img/papel-de-parede-1-.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 60rem;
+}
+
+.content h3 {
+  color: #fff;
+  font-size: 6rem;
+}
+
+.content p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .content p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .content {
+    max-width: 90%;
+  }
+
+  .content h3 {
+    font-size: 3.5rem;
+  }
+
+  .content p {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h3 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+/* FINAL DA RESPONSIVIDADE DA PRIMEIRA PÁGINA */
+
