@@ -363,11 +363,7 @@ section {
 
 /* FINAL DA RESPONSIVIDADE DA PRIMEIRA PÁGINA */
 
-<<<<<<< HEAD
-.box-container {
-=======
 .menu .box-container {
->>>>>>> 1022ec9eebbd4c38cb0d16e68b1ff476a76f1e51
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
@@ -445,7 +441,6 @@ section {
     font-size: 1.2rem;
   }
 }
-<<<<<<< HEAD
 
 /* FINAL DA RESPONSIVIDADE DA SECTION MENU */
 
