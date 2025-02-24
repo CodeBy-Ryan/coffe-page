@@ -457,6 +457,17 @@ section {
   line-height: 1.8;
   font-weight: lighter;
 }
+
+.review .box-container .box .star img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.review .box-container .box img {
+  height: 3rem;
+  width: 3rem;
+}
+
 .review .box-container .box h3 {
   color: #fff;
   font-size: 2rem;
