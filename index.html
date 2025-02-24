@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Code By Ryan - Coffee</title>
+  </head>
+  <body>
+    <header class="header">
+      <section>
+        <a href="#" class="logo">
+          <img src="./img/logo---COFFEE.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+          <a href="#home">Home </a>
+          <a href="#about">Sobre </a>
+          <a href="#menu">Menu </a>
+          <a href="#review">Avaliações </a>
+          <a href="#address">Endereço </a>
+        </nav>
+
+        <div class="icons">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsElEQVR4nO2ZzUuUURSHXzdlNAURoW41ym2boIVfiX9BSy2iQAz8H5JaqO3dZxBESx382NaiD21Z1qZNu8yVUc0YPXHxQLfT9TYznjvzTr0PDAwD7/mdw33PPR+TZQUF+QPoAW4CD4BXwCegKp9tYBNYBG4A3VneAIaBMvCd2tkDloHBPARwFljj8KwAfa0K4hrwGTt2gYlmB3En4tAbYBYYBc4Dx+XTL7/NAVuR52eaFcTdAxx4AYzUYecS8LQlwbD/OmkqwCTQ0YC9DmBKbGjGUya2zgl3vQ4Y2B4EdgI502vj/e9i+naqWATh2R+SeuNTtrLv1wnNpKnIvs6tgM6ApYArdj7PG8mJGnPmpdJasmw7XBX2GTIxHtYbUVp7QJeFYdc7+bw28Tiu+VZpXrcw6hpAn1kTb+Oa80rzvoVR18X6jJp4G9ccU5obFkZdrfA5Z+JtXNO1Nj4fLYzqqlsy8TauWVKa31IEcsLE27jmSaW5+6+8Wu8tjG7mINmfWRh1M7bPnIm3cc17SnMhRUHcMvE2rvlOaV6xMNodaFGGTTwO67kp0qcCnLYy7rYdehpM1TTqnFy0FHCDj2bKTOCXznRA54K1iFvZ+FQtd1LS9erB6qGVfV+oT8ZPnx2Lll4GNz3qus3kGRvv/xScCBx9VSa7RpcP04GTcDwBjiQJRMRnCLMBXK7zdtKJrVkBOlsRDDIUzUt17pcGsCTfx6TY6ToRYyn1yYwHciYVy8DRlMH0BhYT9fIDeAystzQYh1vZyCugO4AYX4FHwEWx0Qms/uWZcvJgxJkutyhwM7Yk/7a0GF+AD7LqWQCuAqcCz+cnmMPiEjvQEmlWk95mTQ5mrQim2fAfnsw6cCzLO9R2mzX3/8dEJ3M7aycIB9NeQRwQTHsGoXImzZ+lBQVZlJ/po/gO7uhxQgAAAABJRU5ErkJggg=="
+            alt="search--v1"
+          />
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCUlEQVR4nO3ZT0tUURjH8WdKKILWJdQmqMwCEXHTKyiirbskqIhCIgShna+ghRC0cOMistIKiXQlIu3btIiglX+wxCEVF0LaVy78qkmYkanznHOP9IW7udzDPB/xztzDNftfyQKuAAs07hswC/QCFStjwDzNNVJKDH9C5upccwy4AWzoul4rW8BlYeaAS3tce1OQ95ZzwCFgRZjzlnPAE0H6LOeAW4KMWc4BZwRZLuW3VzMBi8K0W84BTwW5azkH3BbkueUc0CbI1/10n7RZzgHPSN9MCMid1ArgcwhIe2oFMBgCUgG+JET8AE79M0SYsYSQ6SAIQfoSQq6FhFxIhFgDjoSEVPSjGLvhYIgazMsEkIsekHuREZ9cHouAjsiQB8ERNffJz328d9vASReIMK8jQabcEILcjwTp8YZ0RkBUgcPekAP6IM8euSJqMBPOkK5YkH5HxIcoCEG6HCH9MSEH9R4ldN+B49Egwrxx2DwNRUUIMqABHlvOAd2CfLScA1q06Sn+JVot5/h9n1y3ffL+ZNZyDjha81j/EDjn/ozkFXAV2Az4NfwuNSZUW8CJ1C9N3xZD6JjUudE6a0abXeMesKQBfv0li22qzlXrrKk2WLMWa/bdQ603GGo11Br3gFcaYFLDFMeUzo2HWuMecLbOrrE4dzrUGouRbtYXemwpjvG9BvqbNUU7QCCM7BVzRfEAAAAASUVORK5CYII="
+            alt="shopping-cart"
+          />
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="./img/icons8-menu-quadrado-48.png" />
+          </button>
+        </div>
+      </section>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item">
+            <a href="#review" class="nav-link">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a href="#address" class="nav-link">Endereço</a>
+          </li>
+        </ul>
+        <div class="icons">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsElEQVR4nO2ZzUuUURSHXzdlNAURoW41ym2boIVfiX9BSy2iQAz8H5JaqO3dZxBESx382NaiD21Z1qZNu8yVUc0YPXHxQLfT9TYznjvzTr0PDAwD7/mdw33PPR+TZQUF+QPoAW4CD4BXwCegKp9tYBNYBG4A3VneAIaBMvCd2tkDloHBPARwFljj8KwAfa0K4hrwGTt2gYlmB3En4tAbYBYYBc4Dx+XTL7/NAVuR52eaFcTdAxx4AYzUYecS8LQlwbD/OmkqwCTQ0YC9DmBKbGjGUya2zgl3vQ4Y2B4EdgI502vj/e9i+naqWATh2R+SeuNTtrLv1wnNpKnIvs6tgM6ApYArdj7PG8mJGnPmpdJasmw7XBX2GTIxHtYbUVp7QJeFYdc7+bw28Tiu+VZpXrcw6hpAn1kTb+Oa80rzvoVR18X6jJp4G9ccU5obFkZdrfA5Z+JtXNO1Nj4fLYzqqlsy8TauWVKa31IEcsLE27jmSaW5+6+8Wu8tjG7mINmfWRh1M7bPnIm3cc17SnMhRUHcMvE2rvlOaV6xMNodaFGGTTwO67kp0qcCnLYy7rYdehpM1TTqnFy0FHCDj2bKTOCXznRA54K1iFvZ+FQtd1LS9erB6qGVfV+oT8ZPnx2Lll4GNz3qus3kGRvv/xScCBx9VSa7RpcP04GTcDwBjiQJRMRnCLMBXK7zdtKJrVkBOlsRDDIUzUt17pcGsCTfx6TY6ToRYyn1yYwHciYVy8DRlMH0BhYT9fIDeAystzQYh1vZyCugO4AYX4FHwEWx0Qms/uWZcvJgxJkutyhwM7Yk/7a0GF+AD7LqWQCuAqcCz+cnmMPiEjvQEmlWk95mTQ5mrQim2fAfnsw6cCzLO9R2mzX3/8dEJ3M7aycIB9NeQRwQTHsGoXImzZ+lBQVZlJ/po/gO7uhxQgAAAABJRU5ErkJggg=="
+            alt="search--v1"
+          />
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCUlEQVR4nO3ZT0tUURjH8WdKKILWJdQmqMwCEXHTKyiirbskqIhCIgShna+ghRC0cOMistIKiXQlIu3btIiglX+wxCEVF0LaVy78qkmYkanznHOP9IW7udzDPB/xztzDNftfyQKuAAs07hswC/QCFStjwDzNNVJKDH9C5upccwy4AWzoul4rW8BlYeaAS3tce1OQ95ZzwCFgRZjzlnPAE0H6LOeAW4KMWc4BZwRZLuW3VzMBi8K0W84BTwW5azkH3BbkueUc0CbI1/10n7RZzgHPSN9MCMid1ArgcwhIe2oFMBgCUgG+JET8AE79M0SYsYSQ6SAIQfoSQq6FhFxIhFgDjoSEVPSjGLvhYIgazMsEkIsekHuREZ9cHouAjsiQB8ERNffJz328d9vASReIMK8jQabcEILcjwTp8YZ0RkBUgcPekAP6IM8euSJqMBPOkK5YkH5HxIcoCEG6HCH9MSEH9R4ldN+B49Egwrxx2DwNRUUIMqABHlvOAd2CfLScA1q06Sn+JVot5/h9n1y3ffL+ZNZyDjha81j/EDjn/ozkFXAV2Az4NfwuNSZUW8CJ1C9N3xZD6JjUudE6a0abXeMesKQBfv0li22qzlXrrKk2WLMWa/bdQ603GGo11Br3gFcaYFLDFMeUzo2HWuMecLbOrrE4dzrUGouRbtYXemwpjvG9BvqbNUU7QCCM7BVzRfEAAAAASUVORK5CYII="
+            alt="shopping-cart"
+          />
+        </div>
+      </div>
+      <!--  ---------------------------------------------------------------------- CÓDIGO ACIMA , PARA MENU RESPONSIVO-->
+    </header>
+    <div class="home-container">
+      <section id="home">
+        <div class="content">
+          <h3>Code com o melhor café da região</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perferendis sunt laboriosam repudiandae asperiores. Ut quo
+            cupiditate excepturi eum, perferendis exercitationem, esse minus
+            cumque aut suscipit, ullam aspernatur! Eum, itaque enim?
+          </p>
+          <a href="#" class="btn"> Pegue o seu Agora!</a>
+        </div>
+      </section>
+    </div>
+    <!--  ---------------------------------------------------------------------- CÓDIGO ACIMA , PARA INÍCIO DA PÁGINA-->
+    <section class="about" id="about">
+      <h2 class="title">Sobre <span>Nós</span></h2>
+      <div class="row">
+        <div class="container-image">
+          <img src="./img/about-img.png" alt="Sobre Nós" />
+        </div>
+        <div class="content">
+          <h3>O Que Faz Nosso Café Especial?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+            illo enim? Delectus dolores dicta corrupti deleniti perferendis
+            impedit? Dicta saepe, veniam tenetur necessitatibus consequatur
+            obcaecati pariatur. Provident ad tenetur laudantium.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+            expedita voluptatem nobis natus facere, quod eius deleniti.
+            Distinctio corporis molestias atque sequi officiis expedita ex,
+            nihil deleniti, fugit aut accusantium.
+          </p>
+          <a href="#" class="btn"> Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+    <!--  ---------------------------------------------------------------------- CÓDIGO ACIMA , PARA ( SOBRE NÓS )-->
+
+    <section class="menu" id="menu">
+      <h2 class="title">Nosso <span>Menu</span></h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/1.png" alt="item -1" />
+          <h3>Café Arábica</h3>
+          <div class="price">R$24,99 <span>R$30,00</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/2.png" alt="item -1" />
+          <h3>Cappuccino</h3>
+          <div class="price">R$18,99 <span>R$21,00</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/3.png" alt="item -1" />
+          <h3>Flat White</h3>
+          <div class="price">R$20,99 <span>R$22,99</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/4.png" alt="item -1" />
+          <h3>Ice Coffee</h3>
+          <div class="price">R$14,99 <span>R$19,99</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/5.png" alt="item -1" />
+          <h3>Café Expresso</h3>
+          <div class="price">R$14,99 <span>R$19,99</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/6.png" alt="item -1" />
+          <h3>Café Americano</h3>
+          <div class="price">R$15,99 <span>R$20,99</span></div>
+          <a href="#" class="btn"> Adicione ao Carrinho</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h2 class="title">Nossos <span>Clientes</span></h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentário" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            nulla! Quisquam eaque, placeat ducimus architecto consequuntur iure
+            dolorum sed vitae sequi nostrum dolore impedit, consectetur incidunt
+            autem provident totam aliquam?
+          </p>
+          <img src="./img/pic-1.png" alt="foto cliente" class="user"/>
+          <h3>Pedro Dias</h3>
+          <div class="star">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentário" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            nulla! Quisquam eaque, placeat ducimus architecto consequuntur iure
+            dolorum sed vitae sequi nostrum dolore impedit, consectetur incidunt
+            autem provident totam aliquam?
+          </p>
+          <img src="./img/pic-2.png" alt="foto cliente" class="user"/>
+          <h3>Júlia Oliveira</h3>
+          <div class="star">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentário" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            nulla! Quisquam eaque, placeat ducimus architecto consequuntur iure
+            dolorum sed vitae sequi nostrum dolore impedit, consectetur incidunt
+            autem provident totam aliquam?
+          </p>
+          <img src="./img/pic-3.png" alt="foto cliente" class="user"/>
+          <h3>Mascos Paulo</h3>
+          <div class="star">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="address" id="address">
+      <h2 class="title">Nosso <span>Endereço</span></h2>
+      <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125355.62954717931!2d-37.20576030273436!3d-10.935895999999975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab34fd95299cf%3A0x3f0cfaa448cd5a8f!2sGo%20Coffee%20Aracaju%20-%20Jardins!5e0!3m2!1spt-BR!2sbr!4v1740366934523!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+      <div class="share">
+        <a href="https://www.instagram.com/codebyryan/" target="_blank">
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" alt="Instagram" />
+      </a>
+      
+      <a href="https://github.com/CodeBy-Ryan" target="_blank">
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub" />
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ryan-rodrigues-a09221209/" target="_blank">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn" />
+      </a>
+      
+      </div>
+
+ 
+    </section>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
