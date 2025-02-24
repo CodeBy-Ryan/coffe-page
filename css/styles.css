@@ -486,15 +486,19 @@ section {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
   .address {
-    justify-content: center;
+    font-size: 14px; /* Ajustando o tamanho do texto para telas menores */
+    padding: 10px; /* Reduzindo o padding */
   }
 }
 
 @media (max-width: 480px) {
   .address {
-    text-align: center;
+    font-size: 12px; /* Ajustando ainda mais o tamanho do texto */
+    padding: 5px; /* Reduzindo mais o padding */
+    width: 90%; /* Ajustando a largura para telas pequenas */
   }
 }
 
