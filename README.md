@@ -2,9 +2,9 @@
   Cafeteria
 </h1>
 
-<p align="center">Lading-Page - @Code By Ryan</p>
+<p align="center">Landing-Page - @Code By Ryan</p>
 
-![Lading Page](https://github.com/user-attachments/assets/4d270a6d-fe20-495e-a1e2-8160b080e292)
+![Landing Page](https://github.com/user-attachments/assets/4d270a6d-fe20-495e-a1e2-8160b080e292)
 
 ## 🚀 Apresentação
 
