@@ -1,5 +1,5 @@
 <h1 align="center">
-  Cafeteriaaaaa
+  Cafeteria
 </h1>
 
 <p align="center">Landing-Page - @Code By Ryan</p>
